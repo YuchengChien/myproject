@@ -1,7 +1,12 @@
 package com.jason;
 
+
+import com.jason.kotlin.Student;
+
 public class Hello {
     public static void main(String[] args) {
+        Student student = new Student("Jason", 60, 70);
+//        student.h
 //        System.out.println("Hello world");
         String  s = "abcde";
         System.out.println(s.charAt(3));

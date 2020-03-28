@@ -15,7 +15,7 @@ public class Student {
         average = getAverage();
     }
 
-    public int highest() {
+    int highest() {
         return (english > math)? english: math;
     }
 

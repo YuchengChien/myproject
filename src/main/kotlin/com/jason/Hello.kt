@@ -1,6 +1,10 @@
 package com.jason
 
+import com.jason.kotlin.Student
+
 fun main() {
+    val student = Student("Jason", 50, 50)
+    student.grading()
 //    println("Hello kotlin")
     var s:String?  =  "abcde"
     s = null
